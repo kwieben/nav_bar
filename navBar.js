@@ -1,4 +1,4 @@
-var navOffSet; //Variable used to chace the header position.
+var navOffSet; //Variable to cache the header position.
 //Add a div to the header to prevent sudden resizing of thr HTML body.
 $(document).ready(function(){
 	$('header').wrap('<div class = "placeholder"></div>');
@@ -17,7 +17,7 @@ $(document).scroll(function(){
 		$('header').removeClass('dockNav');
 	}
 });
-//Wait until everything is loaded and re-cache the position. This additional re-cache helps fix random occurrences when the position does not cache during the initial load of the HTML body.
+//Wait until everything is loaded and re-cache the position. This additional re-cache helps fix some random occurrences of the position not being cached correctly during the initial load.
 $(document).load(function(){
 	navOffSet = $('header').offset().top;
-}); //Cache the position of the header relative to the top of the page
+});
