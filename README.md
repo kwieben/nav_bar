@@ -2,8 +2,7 @@
 <!--
   Coded by:
     Kristopher Wieben
-  Created for class and use on my websites. 
-  Feel free to use this code and contribute! =)
+Navbar.js is some early javascript code created as part of a class project. Feel free to use or contribute! =)
 
 -->
 
@@ -15,3 +14,4 @@
   </div>
 </div>
 <!-- Anything can go here. example: paragraph -->
+Navbar.js is some early javascript code created as part of a class project. Feel free to use or contribute! =)
